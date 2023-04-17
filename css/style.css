@@ -1,0 +1,49 @@
+*,::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    height: 100vh;
+    background: url(../assets/1542530717.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 5em 1fr 5em;
+    grid-template-rows: 5em 1fr ;
+}
+
+header
+{
+    grid-column: 1 / 4;
+}
+button
+{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+}
+img
+{
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+}
+main
+{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+footer
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
