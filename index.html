@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="navbar-container container">
             <input type="checkbox" name="" id="">
             <div class="hamburger-lines">
@@ -24,9 +24,9 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu-items">
-                <li><a href="">Accueil</a></li>
-                <li><a href="#portfolio">A propos</a></li>
-                <li><a href="#food">Portfolio</a></li>
+                <li><a href="#presentation">Accueil</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <h1 class="logo">HB</h1>
@@ -34,14 +34,21 @@
     </nav>
     <main>
         <!-- a propos -->
-        <div class="presentation">
-            <h1>HAKIM BENBAHLOULI</h1>
+        <div class="presentation" id="presentation">
+          <div>
+            <h1 class="nom">HAKIM BENBAHLOULI</h1>
+          </div>
+          <div>
+            <p class="description">Développeur Web</p>
+          </div>
+            
+            
             
         </div>
-        <div class="about">
+        <div id="about">
           <img class="rambo" src="./assets/31404-800.jpg" alt="">
           <h2 id="home">A propos</h2>
-            <p >
+            <p class="mess">
                 Bonjour à tous ! Je me présente en tant que développeur web junior en formation. J'ai récemment acquis des compétences solides dans les domaines HTML, CSS, JavaScript, SQL et PHP. Ma formation m'a permis de comprendre les bases du développement web et de maitriser les outils nécessaires à la création de sites web interactifs et fonctionnels. Mon but est de mettre mes connaissances et ma créativité au service de projets Web novateurs. Je suis également motivé pour continuer d'apprendre et de m'améliorer dans le domaine du développement web.
             </p>
         </div>
@@ -51,16 +58,16 @@
         <!-- competence -->
         <div class="comp">
           <h2 id="titre1">Compétences :</h2>
-          <img class="icon8" src="./assets/icons8-html.svg" alt="HTML ">
-          <img class="icon8" src="./assets/icons8-css.svg" alt="CSS">
-          <img class="icon8" src="./assets/icons8-javascript.svg" alt="JS">
-          <img src="./assets/icons8-angularjs.svg" alt="">
-          <img class="icon8" src="./assets/icons8-php.svg" alt="PHP">
-          <img class="icon8" src="./assets/icons8-mysql.svg" alt="MySQL">
-          <img src="./assets/icons8-symfony.svg" alt="symfony">
+          <img class="icon1" src="./assets/icons8-html.svg" alt="HTML ">
+          <img class="icon2" src="./assets/icons8-css.svg" alt="CSS">
+          <img class="icon3" src="./assets/icons8-javascript.svg" alt="JS">
+          <img class="icon4" src="./assets/icons8-angularjs.svg" alt="">
+          <img class="icon5" src="./assets/icons8-php.svg" alt="PHP">
+          <img class="icon6" src="./assets/icons8-mysql.svg" alt="MySQL">
+          <img class="icon7" src="./assets/icons8-symfony.svg" alt="symfony">
           <img class="icon8" src="./assets/icons8-git-squared.svg" alt="GIT">
-          <img src="./assets/icons8-typescript.svg" alt="typescript">
-          <img class="icon8" src="./assets/icons8-figma.svg" alt="">
+          <img class="icon9" src="./assets/icons8-typescript.svg" alt="typescript">
+          <img class="icon10" src="./assets/icons8-figma.svg" alt="">
         </div>
         
 
@@ -103,7 +110,7 @@
               </div>
         
         </section>
-        <div class="contact">
+        <div id="contact">
           <div class="logo-container">
             <h2>Contact</h2>
             <a href="mailto:h.benbahlouli@free.fr">
